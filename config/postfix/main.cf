@@ -66,7 +66,6 @@ home_mailbox = Maildir/
 soft_bounce = no
 unknown_local_recipient_reject_code = 550
 header_checks = regexp:/etc/postfix/header_checks
-smtpd_helo_required = yes
 smtpd_recipient_restrictions =
     reject_invalid_hostname,
     reject_non_fqdn_sender,

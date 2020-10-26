@@ -63,6 +63,7 @@ policy-spf_time_limit = 1800s
 home_mailbox = Maildir/
 
 # Place some restrictions on the clients we accept
+smtpd_helo_required = no
 soft_bounce = no
 unknown_local_recipient_reject_code = 550
 header_checks = regexp:/etc/postfix/header_checks
